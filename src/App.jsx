@@ -1,12 +1,14 @@
-import IntroComponent from './components/1_intro';
+import Intro from './main_components/1_Intro';
+import MenuIcon from './sub_components/1_2MenuIcon';
 
 const App = () => {
 
     return (        
-        <div className='p-7 flex flex-col items-center'>
+        <div className='relative lg:p-7 flex flex-col items-center'>
+            <MenuIcon />
             <div className='bg-gray-100 h-full w-full'>
-                <IntroComponent />
-                <IntroComponent />
+                <Intro />
+                <Intro />
             </div>
         </div>
 
