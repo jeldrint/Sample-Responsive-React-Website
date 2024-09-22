@@ -16,7 +16,7 @@ export default {
             openSans: 'Open Sans',
             montserrat: 'Montserrat',
             poppins: 'Poppins',
-        }
+        },
     },
   },
   plugins: [],
