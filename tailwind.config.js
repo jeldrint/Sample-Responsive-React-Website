@@ -7,15 +7,15 @@ export default {
   theme: {
     extend: {
         fontFamily: {
-            lato: 'Lato',
+            lato: 'Lato, sans-serif',
             lineaBasic: 'linea-basic-10', 
-            varela: 'Varela',
-            varelaRound: 'Varela Round',
-            roboto: 'Roboto',
-            playfair: 'Playfair Display SC',
-            openSans: 'Open Sans',
-            montserrat: 'Montserrat',
-            poppins: 'Poppins',
+            varela: 'Varela, sans-serif',
+            varelaRound: 'Varela Round, sans-serif',
+            roboto: 'Roboto, sans-serif',
+            playfair: 'Playfair Display SC, sans-serif',
+            openSans: 'Open Sans, sans-serif',
+            montserrat: 'Montserrat, sans-serif',
+            poppins: 'Poppins, sans-serif',
         },
     },
   },

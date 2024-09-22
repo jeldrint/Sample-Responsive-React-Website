@@ -16,7 +16,7 @@
         font-style: normal;
     }
     
-    .clip-bg-1 {
+    .clip-1 {
         clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     }
 }
