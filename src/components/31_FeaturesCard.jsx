@@ -22,12 +22,12 @@ const FeaturesCard = ({logoCode}) => {
 
 
     return (
-        <div className="flex flex-col items-center max-w-[350px] bg-[#FFFFFFCC] text-[#777777] gap-y-1 p-3 rounded-sm shadow-lg duration-300 hover:-translate-y-3">
-            <div className="text-[48px] text-center">
+        <div className="flex flex-col items-center justify-center max-w-[350px] md:max-w-[200px] md:h-[300px] lg:max-w-[260px] gap-y-1 px-3 py-2 md:p-3 bg-[#FFFFFFCC] text-[#777777] rounded-sm shadow-lg duration-300 hover:-translate-y-3">
+            <div className="text-[48px] lg:text-[60px] text-center">
                 <span className="font-lineaBasic bg-clip-text text-transparent bg-gradient-to-tr from from-[#7ed56fcc] to-[#28b485cc]">{logoCode}</span>
             </div>
-            <span className="text-[12.8px] font-bold">{str}</span>
-            <span className="text-[12px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.</span>
+            <span className="text-[12.8px] lg:text-[16px] font-bold">{str}</span>
+            <span className="text-[12px] lg:text-[15px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.</span>
         </div>
     )
 
