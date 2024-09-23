@@ -6,7 +6,7 @@ const Intro = () => {
         <div className='relative h-[95vh] w-full bg-cover bg-center bg-no-repeat clip-path-1' style={{backgroundImage: `url(${bg1})`}}>
             <div className='absolute p-9 h-full w-full bg-gradient-to-br from-[#7ed56fcc] to-[#28b485cc]'>
                 <div className='flex flex-col w-full h-[80%] items-center relative'>
-                    <img alt='white logo' src={logo1} className='h-7 self-start cursor-pointer'/>
+                    <img alt='white logo' src={logo1} className='m-5 md:m-0 h-7 self-start cursor-pointer'/>
                     <div className='flex flex-col items-center gap-y-3 absolute top-1/3'>
                         <span className='text-4xl sm:text-5xl lg:text-6xl tracking-[0.4em] md:tracking-[0.6em] text-white'>OUTDOORS</span>
                         <span className='text-xs sm:text-sm md:text-base lg:text-xl tracking-[0.5em] md:tracking-[0.75em] font-bold text-white'>IS&ensp;WHERE&ensp;LIFE&ensp;HAPPENS</span>

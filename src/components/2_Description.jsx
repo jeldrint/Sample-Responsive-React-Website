@@ -4,7 +4,7 @@ import nat3 from '../img/nat-3-large.jpg'
 
 const Description = () => {
     return(
-        <div className='h-[65vh] px-10 gap-y-4 md:gap-y-12 w-full flex flex-col items-center justify-center'>
+        <div className='min-h-[65vh] gap-y-8 md:gap-y-12 w-full flex flex-col items-center justify-center'>
             <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-center tracking-wide">
                 <span className="bg-clip-text text-transparent bg-gradient-to-tr from from-[#7ed56fcc] to-[#28b485cc]">EXCITING TOURS FOR ADVENTUROUS PEOPLE</span>
             </div>
