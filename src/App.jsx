@@ -8,7 +8,7 @@ const App = () => {
     return (        
         <div className='min-h-screen lg:p-7 font-lato'>
             <MenuIcon />
-            <div className='-z-20 bg-gray-100 h-full w-full'>
+            <div className='bg-gray-100'>
                 <Intro />
                 <Description />
                 <Features />
