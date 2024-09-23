@@ -26,6 +26,6 @@
         clip-path: polygon(0 20vh, 100% 0, 100% 120vh, 0 100%);
     }
     .clip-path-4 {
-        clip-path: polygon(0 20vh, 100% 0, 100% 75vh, 0 100%);
+        clip-path: polygon(0 20vh, 100% 0, 100% 95vh, 0 100%);
     }
 }
