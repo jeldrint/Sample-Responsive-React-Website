@@ -23,9 +23,9 @@ const Description = () => {
 
                 </div>
                 <div className='w-full h-full flex relative'>
-                    <img src={nat1} alt='nature 1' className='object-cover absolute top-10 md:top-0 md:left-0 w-[135px] md:w-[218px] lg:w-[300px] duration-300 hover:scale-125 hover:z-10'></img>
-                    <img src={nat2} alt='nature 2' className='object-cover absolute z-10 md:z-0 top-7 right-[100px] md:top-[45px] md:right-0 w-[135px] md:w-[218px] lg:w-[300px] duration-300 hover:scale-125 hover:z-10'></img>
-                    <img src={nat3} alt='nature 3' className='object-cover absolute top-[43px] right-0 md:top-[120px] md:right-1/4 lg:bottom-1/2 w-[135px] md:w-[218px] lg:w-[300px] duration-300 hover:scale-125 hover:z-10'></img>
+                    <img src={nat1} alt='nature 1' className='object-cover absolute top-10 md:top-0 md:left-0 w-[135px] md:w-[218px] lg:w-[300px] duration-300 hover:scale-125 hover:z-10 rounded-sm'></img>
+                    <img src={nat2} alt='nature 2' className='object-cover absolute z-10 md:z-0 top-7 right-[100px] md:top-[45px] md:right-0 w-[135px] md:w-[218px] lg:w-[300px] duration-300 hover:scale-125 hover:z-10 rounded-sm'></img>
+                    <img src={nat3} alt='nature 3' className='object-cover absolute top-[43px] right-0 md:top-[120px] md:right-1/4 lg:bottom-1/2 w-[135px] md:w-[218px] lg:w-[300px] duration-300 hover:scale-125 hover:z-10 rounded-sm'></img>
                 </div>
             </div>
         </div>
