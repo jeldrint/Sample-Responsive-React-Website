@@ -16,7 +16,13 @@
         font-style: normal;
     }
     
-    .clip-1 {
+    .clip-path-1 {
         clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    }
+    .clip-path-2 {
+        clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 100%);
+    }
+    .clip-path-3 {
+        clip-path: polygon(0 20vh, 100% 0, 100% 75vh, 0 100%);
     }
 }

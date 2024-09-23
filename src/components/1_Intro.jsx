@@ -3,7 +3,7 @@ import logo1 from '../img/logo-white.png'
 
 const Intro = () => {
     return(
-        <div className='h-[95vh] w-full bg-cover bg-center bg-no-repeat clip-1' style={{backgroundImage: `url(${bg1})`}}>
+        <div className='h-[95vh] w-full bg-cover bg-center bg-no-repeat clip-path-1' style={{backgroundImage: `url(${bg1})`}}>
             <div className='p-9 h-full w-full bg-gradient-to-br from-[#7ed56fcc] to-[#28b485cc]'>
                 <div className='flex flex-col w-full h-full items-center relative'>
                     <img alt='white logo' src={logo1} className='h-7 self-start cursor-pointer'/>
