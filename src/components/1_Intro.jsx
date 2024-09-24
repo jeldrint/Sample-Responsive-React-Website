@@ -3,7 +3,7 @@ import logo1 from '../img/logo-white.png'
 
 const Intro = () => {
     return(
-        <div className='relative h-[95vh] w-full bg-cover bg-center bg-no-repeat clip-path-1' style={{backgroundImage: `url(${bg1})`}}>
+        <div name='natours' className='relative h-[95vh] w-full bg-cover bg-center bg-no-repeat clip-path-1' style={{backgroundImage: `url(${bg1})`}}>
             <div className='absolute p-9 h-full w-full bg-gradient-to-br from-[#7ed56fcc] to-[#28b485cc]'>
                 <div className='flex flex-col w-full h-[80%] items-center relative'>
                     <img alt='white logo' src={logo1} className='m-5 md:m-0 h-7 self-start cursor-pointer'/>
@@ -14,7 +14,7 @@ const Intro = () => {
                         <div className='bg-white transition-all px-7 py-3 rounded-full text-xs md:text-sm lg:text-base cursor-pointer'>
                             DISCOVER OUR TOURS
                         </div>
-                        <a href='/' className='relative -top-[52px] md:-top-[56px] lg:-top-[60px] bg-white text-white hover:animate-[ping_0.75s_ease-out_1_0s] px-7 py-3 opacity-20 rounded-full text-xs md:text-sm lg:text-base cursor-pointer'>DISCOVER OUR TOURS</a>
+                        <a href='#tours' className='relative -top-[52px] md:-top-[56px] lg:-top-[60px] bg-white text-white hover:animate-[ping_0.75s_ease-out_1_0s] px-7 py-3 opacity-20 rounded-full text-xs md:text-sm lg:text-base cursor-pointer'>DISCOVER OUR TOURS</a>
                     </div>
                 </div>
             </div>

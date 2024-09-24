@@ -1,7 +1,7 @@
 import bg2 from '../img/nat-4.jpg'
 import bg3 from '../img/nat-5.jpg'
 
-import FeaturesCard from './3.1_FeaturesCard';
+import FeaturesCard from './3_FeaturesCard';
 
 const Features = () => {
     return(

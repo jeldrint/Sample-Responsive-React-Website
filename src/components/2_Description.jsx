@@ -6,7 +6,9 @@ const Description = () => {
     return(
         <div className='min-h-[65vh] gap-y-8 md:gap-y-12 w-full flex flex-col items-center justify-center'>
             <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-center tracking-wide">
-                <span className="bg-clip-text text-transparent bg-gradient-to-tr from from-[#7ed56fcc] to-[#28b485cc]">EXCITING TOURS FOR ADVENTUROUS PEOPLE</span>
+                <span className="bg-clip-text text-transparent bg-gradient-to-tr from from-[#7ed56fcc] to-[#28b485cc]">
+                    EXCITING TOURS FOR ADVENTUROUS PEOPLE
+                </span>
             </div>
             <div className="w-[320px] md:min-w-[700px] lg:min-w-[950px] flex flex-col md:flex-row md:gap-x-[80px]">
                 <div className="w-full text-[#777777] text-[12.8px] lg:text-[14.4px] text-justify flex flex-col items-center gap-y-3 md:gap-y-8">

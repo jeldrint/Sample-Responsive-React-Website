@@ -28,4 +28,10 @@
     .clip-path-4 {
         clip-path: polygon(0 20vh, 100% 0, 100% 95vh, 0 100%);
     }
+    .clip-path-sm-1 {
+        clip-path: polygon(0 0, 100% 0, 100% 150px, 0 100%);
+    }
+    .clip-path-sm-2 {
+        clip-path: polygon(0 35px, 100% 0, 100% 100%, 0 100%);
+    }
 }
