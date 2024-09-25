@@ -4,14 +4,14 @@ import nat3 from '../img/nat-3-large.jpg'
 
 const Description = () => {
     return(
-        <div className='min-h-[65vh] gap-y-8 md:gap-y-12 w-full flex flex-col items-center justify-center'>
+        <div className='py-[80px] gap-y-8 md:gap-y-12 w-full flex flex-col items-center justify-center'>
             <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-center tracking-wide">
                 <span className="bg-clip-text text-transparent bg-gradient-to-tr from from-[#7ed56fcc] to-[#28b485cc]">
                     EXCITING TOURS FOR ADVENTUROUS PEOPLE
                 </span>
             </div>
             <div className="w-[320px] md:min-w-[700px] lg:min-w-[950px] flex flex-col md:flex-row md:gap-x-[80px]">
-                <div className="w-full text-[#777777] text-[12.8px] lg:text-[14.4px] text-justify flex flex-col items-center gap-y-3 md:gap-y-8">
+                <div className="w-full text-[12.8px] lg:text-[14.4px] text-justify flex flex-col items-center gap-y-3 md:gap-y-8">
                     <div className="w-full flex flex-col gap-y-2 ">
                         <span className="font-bold">YOU'RE GOING TO FALL IN LOVE WITH NATURE</span>
                         <span className="leading-loose ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.</span>
@@ -20,7 +20,7 @@ const Description = () => {
                         <span className="font-bold">LIVE ADVENTURES LIKE YOU NEVER HAVE BEFORE</span>
                         <span className="leading-loose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla deserunt voluptatum nam.</span>
                     </div>
-                    <a href='/' className='p-2 rounded-sm self-start text-[#7ed56fcc] font-bold underline cursor-pointer transition-colors hover:bg-[#28b485cc] hover:text-white'>Learn more {String.fromCharCode(8594)}</a>
+                    <a href='/' className='p-2 rounded-sm self-start text-[#7ed56fcc] font-bold underline cursor-pointer transition-colors hover:bg-[#28b485cc] hover:text-[#F7F7F7]'>Learn more {String.fromCharCode(8594)}</a>
 
                 </div>
                 <div className='h-[200px] md:h-[300px] lg:h-[350px] w-full flex relative'>

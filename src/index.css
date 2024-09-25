@@ -34,4 +34,7 @@
     .clip-path-sm-2 {
         clip-path: polygon(0 35px, 100% 0, 100% 100%, 0 100%);
     }
+    .clip-path-sm-pic {
+        clip-path: circle(20% at 50% 50%)
+    }
 }
