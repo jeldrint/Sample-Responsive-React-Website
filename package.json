@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "homepage": "https://jeldrint.github.io/codingAssignment/",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
