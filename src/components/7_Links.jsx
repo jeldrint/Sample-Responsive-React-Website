@@ -7,7 +7,7 @@ const Links = () => {
             <div className='py-20 w-[350px] md:w-[750px] lg:w-[900px] xl:w-[1000px] flex flex-col items-center gap-y-10'>
                 <img src={logo1} className='w-[150px]' />
                 <div className='flex flex-col gap-y-10 md:flex-row md:gap-x-20'>
-                    <ul className='border-solid border-t-[0.8px] border-gray-400 p-3 w-full flex justify-center flex-wrap text-nowrap gap-x-3 cursor-pointer '>
+                    <ul className='border-solid border-t-[0.8px] border-gray-400 p-3 w-full flex justify-center flex-wrap text-nowrap gap-x-3'>
                         <li><a href='/'>COMPANY</a></li>
                         <li><a href='/'>CONTACT US</a></li>
                         <li><a href='/'>CAREERS</a></li>

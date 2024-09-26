@@ -5,13 +5,13 @@ import Tours from './components/4_Tours';
 import Feedback from './components/5_Feedback';
 import BookNow from './components/6_Booknow';
 import Links from './components/7_Links';
-import MenuIcon from './components/MenuIcon';
+import Menu from './components/Menu';
 
 const App = () => {
     return (        
-        <div className='min-h-screen lg:p-7 font-lato'>
-            <MenuIcon />
-            <div className='w-full bg-[#F7F7F7] text-[#777777]'>
+        <div className='min-h-screen font-lato'>
+            <Menu />
+            <div className='lg:p-7 w-full bg-[#F7F7F7] text-[#777777]'>
                 <Intro />
                 <Description />
                 <Features />
