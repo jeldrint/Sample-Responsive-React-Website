@@ -3,6 +3,13 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: "/codingAssignment/",
+    base: "/",
     plugins: [react()],
+    build: {
+        manifest: true,
+        outDir: 'dist',
+        rollupOptions: {
+            input: ['./src/main.jsx', './index.html']
+        },
+      },  
 })
