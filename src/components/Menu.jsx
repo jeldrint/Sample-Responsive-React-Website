@@ -1,16 +1,12 @@
 import { useState } from "react";
 
-const Menu = () => {
+const Menu = ({displayToursCard}) => {
     const [toggleMenu, setToggleMenu] = useState(false);
 
     const barStyle = 'w-5 h-[2px] bg-black mt-1 transition-transform';
     const barStyle1 = 'w-5 h-[2px] bg-black mt-[6px] transition-transform rotate-[135deg] translate-y-[3px]';
     const barStyle2 = 'transition-opacity opacity-0';
     const barStyle3 = 'w-5 h-[2px] bg-black mt-[6px] transition-transform -rotate-[135deg] -translate-y-[5px]';
-
-    const handleClick = () => {
-        setToggleMenu(!toggleMenu)
-    }
 
     return(
         <div>
@@ -24,7 +20,7 @@ const Menu = () => {
                 </ul>
 
             </div>
-            <div className="z-20 transition-transform fixed right-12 top-12 inline-block cursor-pointer bg-[white] p-6 rounded-[50%]" onClick={handleClick}>
+            <div className="z-20 transition-transform fixed right-12 top-12 inline-block cursor-pointer bg-[white] p-6 rounded-[50%]" onClick={()=>setToggleMenu(!toggleMenu)}>
                 <div className={toggleMenu ? barStyle1: barStyle}></div>
                 <div className={toggleMenu ? barStyle2: barStyle}></div>
                 <div className={toggleMenu ? barStyle3: barStyle}></div>

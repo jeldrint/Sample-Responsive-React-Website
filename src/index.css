@@ -53,4 +53,8 @@
         shape-outside: circle(45%);
     }
 
+    .column-rule{
+        column-rule: 1px solid lightgray;
+    }
+
 }

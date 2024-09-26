@@ -1,8 +1,11 @@
+import { useContext } from 'react'
 import tourImg1 from '../img/nat-5.jpg'
 import tourImg2 from '../img/nat-6.jpg'
 import tourImg3 from '../img/nat-7.jpg'
+import { DisplayToursCardContext } from '../App'
 
 const ToursCard = ({tour, d, people, guides, stay, difficulty, price}) => {
+    const {displayToursCard, setDisplayToursCard} = useContext(DisplayToursCardContext);
 
     return(
         <>
@@ -26,9 +29,9 @@ const ToursCard = ({tour, d, people, guides, stay, difficulty, price}) => {
                         <span className='text-[12px]'>ONLY</span>
                         <span className='text-[32px]'>${price}</span>
                     </div>
-                    <a href='/' className='bg-[#F7F7F7] px-9 py-5 rounded-full text-xs md:text-sm lg:text-base cursor-pointer transition-all hover:animate-bounce'>
+                    <button onClick={()=> {setDisplayToursCard(!displayToursCard)}} className='bg-[#F7F7F7] px-9 py-5 rounded-full text-xs md:text-sm lg:text-base cursor-pointer transition-all hover:animate-bounce'>
                     BOOK NOW!
-                    </a>
+                    </button>
                 </div>
             </div>
         </>
