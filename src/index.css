@@ -37,14 +37,20 @@
     .clip-path-sm-pic {
         clip-path: circle(30% at 50% 50%)
     }
+    .clip-path-lg-pic {
+        clip-path: circle(40% at 50% 50%)
+    }
     .clip-path-form {
         clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
     }
     .clip-path-feedback {
         clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
     }
-
-    .shape-outside{
+    .shape-outside-sm{
         shape-outside: circle(35%);
     }
+    .shape-outside-lg{
+        shape-outside: circle(45%);
+    }
+
 }
