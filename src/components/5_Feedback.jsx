@@ -9,7 +9,7 @@ const Feedback = () => {
     return (
         <div id='feedback' className='min-h-[1030px] relative w-full py-20 text-[12.8px] flex flex-col items-center justify-center'>
             <div className='z-10 flex flex-col items-center gap-y-8 md:gap-y-12'>
-                <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-center tracking-wide">
+                <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-center tracking-wide transition-transform hover:skew-x-[12deg] hover:skew-y-[4deg] hover:scale-110">
                     <span className="bg-clip-text text-transparent bg-gradient-to-tr from from-[#7ed56fcc] to-[#28b485cc]">
                         WE MAKE PEOPLE GENUINELY HAPPY
                     </span>

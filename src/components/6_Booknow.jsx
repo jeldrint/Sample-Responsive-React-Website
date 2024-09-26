@@ -6,7 +6,7 @@ const BookNow = () => {
         <div id='booknow' className='py-20 w-full text-[12px] md:text-[13.6px] flex flex-col items-center bg-gradient-to-br from-[#7ed56fcc] to-[#28b485cc]'>
             <div className='relative min-w-[352px] md:w-[800px] lg:w-[950px] xl:w-[1100px] min-h-[500px] bg-cover bg-center rounded-sm shadow-xl' style={{backgroundImage: `url(${bg1})`}}>
                 <form action="" method="" className="absolute w-full h-full md:w-[75%] px-12 py-[60px] flex flex-col items-center md:items-start justify-center gap-y-10 bg-gray-100 opacity-90 md:clip-path-form rounded-sm">
-                    <legend className="text-lg md:text-3xl lg:text-4xl font-bold text-center tracking-wide">
+                    <legend className="text-lg md:text-3xl lg:text-4xl font-bold text-center tracking-wide transition-transform hover:skew-x-[12deg] hover:skew-y-[4deg] hover:scale-110">
                         <span className="bg-clip-text text-transparent bg-gradient-to-tr from from-[#7ed56fcc] to-[#28b485cc]">
                             START BOOKING NOW
                         </span>

@@ -5,7 +5,7 @@ import nat3 from '../img/nat-3-large.jpg'
 const Description = () => {
     return(
         <div id='description' className='py-[80px] gap-y-8 md:gap-y-12 w-full flex flex-col items-center justify-center'>
-            <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-center tracking-wide">
+            <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-center tracking-wide transition-transform hover:skew-x-[12deg] hover:skew-y-[4deg] hover:scale-110">
                 <span className="bg-clip-text text-transparent bg-gradient-to-tr from from-[#7ed56fcc] to-[#28b485cc]">
                     EXCITING TOURS FOR ADVENTUROUS PEOPLE
                 </span>
