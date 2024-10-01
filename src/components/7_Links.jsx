@@ -20,7 +20,7 @@ const Links = () => {
                             <span>Check out his github here :&ensp;</span>
                             <a href='https://github.com/jeldrint' target='_blank' rel='noopener' className='text-center'>
                                 <img alt='Github Icon' src={GitIcon} className='w-7 inline-flex transition-opacity hover:opacity-50 hover:scale-110 invert' />
-                            </a>
+                            </a>&ensp;
                         </div>
                         Original design by Jonas Schmedtmann.
                     </span>
