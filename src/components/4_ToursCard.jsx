@@ -9,7 +9,7 @@ const ToursCard = ({tour, d, people, guides, stay, difficulty, price}) => {
 
     return(
         <>
-            <div className="flex flex-col items-center justify-center w-[300px] sm:w-[350px] md:w-[260px] lg:w-[330px] rounded-sm shadow-lg">
+            <div className="flex flex-col items-center justify-center w-[300px] sm:w-[350px] md:w-[260px] lg:w-[330px] rounded-sm shadow-lg hover:scale-105 transition-transform">
                 <div className={`relative w-full h-[185px] bg-cover bg-center bg-no-repeat bg-blend-screen clip-path-sm-1
                     ${d === 3 ? 'bg-amber-600' : d === 7 ? 'bg-green-500' : 'bg-blue-600'}`} style={d === 3 ? {backgroundImage: `url(${tourImg1})`} : d === 7 ? {backgroundImage: `url(${tourImg2})`}:{backgroundImage: `url(${tourImg3})`}}>
                     <span className={`absolute bottom-1/3 right-0 font-light text-[22.4px] text-[#F7F7F7] text-right bg-opacity-70 px-3 py-2 ${d === 3 ? 'bg-amber-600' : d === 7 ? 'bg-green-500' : 'bg-blue-600'}`}>{tour.toUpperCase()}</span>
