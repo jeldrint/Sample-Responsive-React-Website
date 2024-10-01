@@ -15,7 +15,7 @@ const Links = () => {
                         <li><a href='/'>PRIVACY POLICY</a></li>
                         <li><a href='/'>TERMS</a></li>
                     </ul>
-                    <span className='border-solid border-t-[0.8px] border-gray-400 p-3 w-full flex items-center justify-center flex-wrap'>Remade by John Eldrin Tolentino.&ensp;
+                    <span className='border-solid border-t-[0.8px] border-gray-400 p-3 w-full flex items-center justify-center flex-wrap'>This website is remade by John Eldrin Tolentino.&ensp;
                         <div className='flex items-center'>
                             <span>Check out his github here :&ensp;</span>
                             <a href='https://github.com/jeldrint' target='_blank' rel='noopener' className='text-center'>
